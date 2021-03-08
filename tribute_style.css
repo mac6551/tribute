@@ -18,10 +18,21 @@ img {
  border-color: 330066;
  border-style: solid;
 }
-p {
+p1 {
  display: flex;
- justify-content: center;
+ align-items: center;
  font-size: 18px; 
+ padding: 10px;
+ margin: 80px;
+ background-color: purple;
+}
+p2 {
+ display: flex;
+ align-items: center;
+ font-size: 18px; 
+ padding: 10px;
+ margin: 150px;
+ background-color: purple; 
 }
 h3 {
  display: flex;
@@ -33,7 +44,7 @@ h4 {
  justify-content: center;
  font-size: 24px;
 }
-p {
+p1, p2 {
  display: flex;
  justify-content: center;
  align-content: center;
@@ -53,4 +64,5 @@ ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 100px;
 }
